@@ -363,8 +363,8 @@ static void _rtl_rx_process(struct ieee80211_hw *hw, struct sk_buff *skb)
 	struct rtl_priv *rtlpriv = rtl_priv(hw);
 	u8 *rxdesc;
 	struct rtl_stats stats = {
-		.signal = 0,
-		.noise = -98,
+		.signal = 0,						//TODO: set it! Agostino Polizzano
+		.noise = -98,						//TODO: set it! Agostino Polizzano
 		.rate = 0,
 	};
 	struct rx_fwinfo_92c *p_drvinfo;
