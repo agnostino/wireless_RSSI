@@ -3214,10 +3214,12 @@ void ieee80211_rx(struct ieee80211_hw *hw, struct sk_buff *skb)
 	struct ieee80211_rate *rate = NULL;
 	struct ieee80211_supported_band *sband;
 	struct ieee80211_rx_status *status = IEEE80211_SKB_RXCB(skb);
-	struct iphdr *network_header;			//Agostino Polizzano
-	signed char signal;						//Agostino Polizzano
+	struct iphdr *network_header;				//Agostino Polizzano
+	signed char signal = status->signal;		//Agostino Polizzano
+	unsigned char qual = status->qual;			//Agostino Polizzano
+	unsigned char noise = status->noise;		//Agostino Polizzano
 	
-	signal = status->signal;				//Agostino Polizzano
+	
 
 	WARN_ON_ONCE(softirq_count() == 0);
 
@@ -3318,7 +3320,7 @@ void ieee80211_rx(struct ieee80211_hw *hw, struct sk_buff *skb)
 	if (network_header != NULL)
 		if (network_header->protocol == 1) { //ICMP
 			//if (network_header->saddr == _ip_address) {
-				printk(KERN_EMERG "RX_STATUS: packet sent from %pI4 (packet type: ICMP) to %pI4 - signal %d\n", &network_header->saddr, &network_header->daddr, signal);
+				printk(KERN_EMERG "RX_STATUS: packet sent from %pI4 (packet type: ICMP) to %pI4 - signal: %d, qual: %hhu, noise: %hhu\n", &network_header->saddr, &network_header->daddr, signal, qual, noise);
 			//}
 		}
 	/* stop Agostino Polizzano */
