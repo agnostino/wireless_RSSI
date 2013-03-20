@@ -147,3 +147,8 @@ real time: watch "dmesg | tail -20"
 
 
 
+/* Define a variable p of type point, and set members using designated  initializers*/
+point p = {
+	.y = 2, 
+	.x = 1
+};
