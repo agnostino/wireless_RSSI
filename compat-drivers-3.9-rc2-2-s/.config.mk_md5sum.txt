@@ -1,0 +1,2 @@
+ba830e303c03c89618f57321db81facd  /home/agostino/Scaricati/Dropbox/TESI/wireless/compat-drivers-3.9-rc2-2-s/.config
+47053816e45e46ad86778e3b7723e2c8  /home/agostino/Scaricati/Dropbox/TESI/wireless/compat-drivers-3.9-rc2-2-s/config.mk

@@ -48,6 +48,7 @@ obj-$(CONFIG_COMPAT_WIRELESS_MODULES) += drivers/net/wireless/
 
 
 
+obj-$(CONFIG_COMPAT_VAR_MODULES) += drivers/misc/eeprom/
 
 ifeq ($(CONFIG_STAGING_EXCLUDE_BUILD),)
 endif
@@ -215,7 +216,6 @@ uninstall:
 	@rm -rf $(KLIB)/$(KMODDIR)/net/mac80211/
 	@rm -rf $(KLIB)/$(KMODDIR)/net/rfkill/
 	@rm -rf $(KLIB)/$(KMODDIR)/net/wireless/
-	@rm -rf $(KLIB)/$(KMODDIR)/drivers/ssb/
 	@rm -rf $(KLIB)/$(KMODDIR)/drivers/net/usb/
 	@rm -rf $(KLIB)/$(KMODDIR)/drivers/net/wireless/
 	@rm -rf $(KLIB)/$(KMODDIR)/drivers/staging/
