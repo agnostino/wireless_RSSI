@@ -875,6 +875,7 @@ struct ieee80211_rx_status {
 	u8 vendor_radiotap_align;
 	u8 vendor_radiotap_oui[3];
 	u8 vendor_radiotap_subns;
+	s32 AgostinoRSSI;	//Agostino Polizzano
 };
 
 /**

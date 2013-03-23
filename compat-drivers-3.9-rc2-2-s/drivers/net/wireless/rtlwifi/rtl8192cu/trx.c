@@ -347,9 +347,13 @@ bool rtl92cu_rx_query_desc(struct ieee80211_hw *hw,
 		rtl92c_translate_rx_signal_stuff(hw, skb, stats, pdesc,
 						 p_drvinfo);
 	}
-	/*rx_status->qual = stats->signal; */
-	rx_status->signal = stats->rssi + 10;
-	/*rx_status->noise = -stats->noise; */
+	// /* ORIGINAL */
+	// /*rx_status->qual = stats->signal; */
+	// rx_status->signal = stats->rssi + 10;
+	// /*rx_status->noise = -stats->noise; */
+	rx_status->signal = stats->rssi + 10;				/*Agostino Polizzano*/
+	rx_status->AgostinoRSSI = stats->recvsignalpower;	/*Agostino Polizzano*/
+	
 	return true;
 }
 
