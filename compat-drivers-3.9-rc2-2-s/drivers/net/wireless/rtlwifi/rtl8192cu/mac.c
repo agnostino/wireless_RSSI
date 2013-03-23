@@ -833,6 +833,7 @@ static void _rtl92c_query_rxphystatus(struct ieee80211_hw *hw,
 		pwdb_all = _rtl92c_query_rxpwrpercentage(rx_pwr_all);
 		pstats->rx_pwdb_all = pwdb_all;
 		pstats->recvsignalpower = rx_pwr_all;
+		pstats->Agostino_recvsignalpower = rx_pwr_all;			//Agostino Polizzano
 		if (packet_match_bssid) {
 			u8 sq;
 			if (pstats->rx_pwdb_all > 40)
@@ -871,6 +872,7 @@ static void _rtl92c_query_rxphystatus(struct ieee80211_hw *hw,
 		pstats->rx_pwdb_all = pwdb_all;
 		pstats->rxpower = rx_pwr_all;
 		pstats->recvsignalpower = rx_pwr_all;
+		pstats->Agostino_recvsignalpower = rx_pwr_all;			//Agostino Polizzano
 		if (GET_RX_DESC_RX_MCS(pdesc) &&
 		    GET_RX_DESC_RX_MCS(pdesc) >= DESC92_RATEMCS8 &&
 		    GET_RX_DESC_RX_MCS(pdesc) <= DESC92_RATEMCS15)

@@ -1399,6 +1399,7 @@ struct rtl_stats {
 	 * no beautification and aggregation.
 	 * */
 	s32 recvsignalpower;
+	s32 Agostino_recvsignalpower;	//Agostino Polizzano
 	s8 rxpower;		/*in dBm Translate from PWdB */
 	u8 signalstrength;	/*in 0-100 index. */
 	u16 hwerror:1;
