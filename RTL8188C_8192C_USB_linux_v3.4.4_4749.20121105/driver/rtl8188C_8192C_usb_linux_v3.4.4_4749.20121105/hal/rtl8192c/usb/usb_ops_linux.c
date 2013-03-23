@@ -932,8 +932,6 @@ void rtl8192cu_recv_tasklet(void *priv)
 	struct recv_buf *precvbuf = NULL;
 	_adapter	*padapter = (_adapter*)priv;
 	struct recv_priv	*precvpriv = &padapter->recvpriv;
-	
-	//printk(KERN_EMERG "\n###########################");	//Agostino Polizzano
 
 	while (NULL != (precvbuf = rtw_dequeue_recvbuf(&precvpriv->recv_buf_pending_queue)))
 	{

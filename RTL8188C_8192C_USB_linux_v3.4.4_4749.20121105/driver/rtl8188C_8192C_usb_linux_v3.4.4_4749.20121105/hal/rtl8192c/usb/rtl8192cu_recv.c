@@ -243,8 +243,6 @@ void rtl8192cu_update_recvframe_attrib_from_recvstat(union recv_frame *precvfram
 	u8	bPacketToSelf = _FALSE;
 	u8	bPacketBeacon = _FALSE;
 
-	//printk("??????rtl8192cu_update_recvframe_attrib_from_recvstat??????????");	//Agostino Polizzano
-
 
 	//Offset 0
 	drvinfo_sz = (le32_to_cpu(prxstat->rxdw0)&0x000f0000)>>16;
@@ -376,17 +374,15 @@ void rtl8192cu_update_recvframe_attrib_from_recvstat(union recv_frame *precvfram
 #endif
 
 	/* start Agostino Polizzano */
-	/*
-	if (pattrib->src[0] == 0x08) {
+	if (pattrib->src[0] == 0x68 && pattrib->dst[0] == 0x00) {
 		printk(KERN_EMERG "\n###########################");
 		printk(KERN_EMERG "\nsrc: %02X:%02X:%02X:%02X:%02X:%02X", pattrib->src[0],pattrib->src[1],pattrib->src[2],pattrib->src[3],pattrib->src[4],pattrib->src[5]);
 		printk(KERN_EMERG "\ndst: %02X:%02X:%02X:%02X:%02X:%02X", pattrib->dst[0],pattrib->dst[1],pattrib->dst[2],pattrib->dst[3],pattrib->dst[4],pattrib->dst[5]);
-		printk(KERN_EMERG "\nsignal_qual: %hhu", pattrib->signal_qual); 			//u8
-		printk(KERN_EMERG "\nsignal_strength: %hhu", pattrib->signal_strength);	//u8
-		printk(KERN_EMERG "\nRecvSignalPower: %d",pattrib->RecvSignalPower);	//s32
+		//printk(KERN_EMERG "\nsignal_qual: %hhu", pattrib->signal_qual); 		//u8
+		//printk(KERN_EMERG "\nsignal_strength: %hhu", pattrib->signal_strength);	//u8
+		printk(KERN_EMERG "\nRecvSignalPower: %d\n",pattrib->RecvSignalPower);		//s32
 		printk(KERN_EMERG "\n###########################\n");
 	}
-	*/
 	/* stop Agostino Polizzano */
 
 	}

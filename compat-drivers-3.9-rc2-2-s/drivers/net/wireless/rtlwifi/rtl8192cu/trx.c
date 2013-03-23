@@ -347,9 +347,9 @@ bool rtl92cu_rx_query_desc(struct ieee80211_hw *hw,
 		rtl92c_translate_rx_signal_stuff(hw, skb, stats, pdesc,
 						 p_drvinfo);
 	}
-	rx_status->qual = stats->signal;		//uncommented by Agostino Polizzano
+	/*rx_status->qual = stats->signal; */
 	rx_status->signal = stats->rssi + 10;
-	rx_status->noise = -stats->noise;		//uncommented by Agostino Polizzano
+	/*rx_status->noise = -stats->noise; */
 	return true;
 }
 
@@ -363,8 +363,8 @@ static void _rtl_rx_process(struct ieee80211_hw *hw, struct sk_buff *skb)
 	struct rtl_priv *rtlpriv = rtl_priv(hw);
 	u8 *rxdesc;
 	struct rtl_stats stats = {
-		.signal = 0,						//TODO: set it! Agostino Polizzano
-		.noise = -98,						//TODO: set it! Agostino Polizzano
+		.signal = 0,
+		.noise = -98,
 		.rate = 0,
 	};
 	struct rx_fwinfo_92c *p_drvinfo;

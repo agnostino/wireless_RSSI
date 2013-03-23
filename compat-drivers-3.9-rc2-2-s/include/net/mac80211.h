@@ -871,8 +871,6 @@ struct ieee80211_rx_status {
 	u8 band;
 	u8 antenna;
 	s8 signal;
-	u8 qual;	//Agostino Polizzano
-	u8 noise;	//Agostino Polizzano
 	u8 ampdu_delimiter_crc;
 	u8 vendor_radiotap_align;
 	u8 vendor_radiotap_oui[3];

@@ -1,8 +1,8 @@
-cmd_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o := gcc -Wp,-MD,/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/.usb_intf.o.d  -nostdinc -isystem /usr/lib/gcc/i686-linux-gnu/4.7/include  -I/usr/src/linux-headers-3.5.0-25-lowlatency/arch/x86/include -Iarch/x86/include/generated -Iinclude  -include /usr/src/linux-headers-3.5.0-25-lowlatency/include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -m32 -msoft-float -mregparm=3 -freg-struct-return -mpreferred-stack-boundary=2 -march=i686 -mtune=generic -maccumulate-outgoing-args -Wa,-mtune=generic32 -ffreestanding -fstack-protector -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_AVX=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -Wframe-larger-than=1024 -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO -O1 -Wno-unused-variable -Wno-unused-value -Wno-unused-label -Wno-unused-parameter -Wno-unused-function -Wno-unused -Wno-uninitialized -I/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include -DCONFIG_POWER_SAVING -DCONFIG_LITTLE_ENDIAN  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(usb_intf)"  -D"KBUILD_MODNAME=KBUILD_STR(8192cu)" -c -o /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/.tmp_usb_intf.o /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.c
+cmd_/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o := gcc -Wp,-MD,/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/.usb_intf.o.d  -nostdinc -isystem /usr/lib/gcc/i686-linux-gnu/4.7/include  -I/usr/src/linux-headers-3.5.0-25-lowlatency/arch/x86/include -Iarch/x86/include/generated -Iinclude  -include /usr/src/linux-headers-3.5.0-25-lowlatency/include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -m32 -msoft-float -mregparm=3 -freg-struct-return -mpreferred-stack-boundary=2 -march=i686 -mtune=generic -maccumulate-outgoing-args -Wa,-mtune=generic32 -ffreestanding -fstack-protector -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_AVX=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -Wframe-larger-than=1024 -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO -O1 -Wno-unused-variable -Wno-unused-value -Wno-unused-label -Wno-unused-parameter -Wno-unused-function -Wno-unused -Wno-uninitialized -I/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include -DCONFIG_POWER_SAVING -DCONFIG_LITTLE_ENDIAN  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(usb_intf)"  -D"KBUILD_MODNAME=KBUILD_STR(8192cu)" -c -o /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/.tmp_usb_intf.o /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.c
 
-source_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o := /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.c
+source_/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o := /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.c
 
-deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o := \
+deps_/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o := \
     $(wildcard include/config/usb/hci.h) \
     $(wildcard include/config/platform/rtk/dmp.h) \
     $(wildcard include/config/80211n/ht.h) \
@@ -26,14 +26,14 @@ deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.
     $(wildcard include/config/platform/rtd2880b.h) \
     $(wildcard include/config/intel/proxim.h) \
     $(wildcard include/config/ap/mode.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/drv_conf.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/drv_conf.h \
     $(wildcard include/config/android.h) \
     $(wildcard include/config/platform/android.h) \
     $(wildcard include/config/validate/ssid.h) \
     $(wildcard include/config/signal/display/dbm.h) \
     $(wildcard include/config/wakelock.h) \
     $(wildcard include/config/vendor/req/retry.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/autoconf.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/autoconf.h \
     $(wildcard include/config/cfg80211/force/compatible/2/6/37/under.h) \
     $(wildcard include/config/debug/cfg80211.h) \
     $(wildcard include/config/pwrctrl.h) \
@@ -106,13 +106,13 @@ deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.
     $(wildcard include/config/debug/rtl819x.h) \
     $(wildcard include/config/error/detect.h) \
     $(wildcard include/config/error/reset.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/osdep_service.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/osdep_service.h \
     $(wildcard include/config/tcp/csum/offload/tx.h) \
     $(wildcard include/config/sdio/hci.h) \
     $(wildcard include/config/pci/hci.h) \
     $(wildcard include/config/usb/suspend.h) \
     $(wildcard include/config/use/vmalloc.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/basic_types.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/basic_types.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/lbdaf.h) \
@@ -1008,18 +1008,18 @@ deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.
     $(wildcard include/config/irq/forced/threading.h) \
     $(wildcard include/config/generic/irq/probe.h) \
   include/linux/pm_runtime.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_byteorder.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_byteorder.h \
     $(wildcard include/config/little/endian.h) \
     $(wildcard include/config/big/endian.h) \
     $(wildcard include/config/platform/mstar389.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/byteorder/little_endian.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/drv_types.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/byteorder/little_endian.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/drv_types.h \
     $(wildcard include/config/1t1r.h) \
     $(wildcard include/config/2t2r.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/wlan_bssdef.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/drv_types_linux.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_ht.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/wifi.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/wlan_bssdef.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/drv_types_linux.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_ht.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/wifi.h \
     $(wildcard include/config/rtl8712fw.h) \
     $(wildcard include/config/error.h) \
     $(wildcard include/config/method/flash.h) \
@@ -1035,10 +1035,10 @@ deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.
     $(wildcard include/config/method/ppbc.h) \
     $(wildcard include/config/method/vdisplay.h) \
     $(wildcard include/config/method/pdisplay.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_cmd.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_cmd.h \
     $(wildcard include/config/rtl8711fw.h) \
     $(wildcard include/config/event/thread/mode.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_rf.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_rf.h \
     $(wildcard include/config/.h) \
     $(wildcard include/config/1t.h) \
     $(wildcard include/config/2t.h) \
@@ -1046,36 +1046,36 @@ deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.
     $(wildcard include/config/2r.h) \
     $(wildcard include/config/1t2r.h) \
     $(wildcard include/config/turbo.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_led.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/ieee80211.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_xmit.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_led.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/ieee80211.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_xmit.h \
     $(wildcard include/config/single/xmit/buf.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/xmit_osdep.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_recv.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/xmit_osdep.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_recv.h \
     $(wildcard include/config/recv/thread/mode.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/hal_init.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_qos.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_security.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_pwrctrl.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_io.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/osdep_intf.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_eeprom.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/sta_info.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/wifi.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_mlme.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_debug.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_event.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_mlme_ext.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/hal_init.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_qos.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_security.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_pwrctrl.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_io.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/osdep_intf.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_eeprom.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/sta_info.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/wifi.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_mlme.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_debug.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_event.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_mlme_ext.h \
     $(wildcard include/config/dfs.h) \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_p2p.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_br_ext.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/recv_osdep.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_version.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_vendor_req.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_ops.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_osintf.h \
-  /home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_hal.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_p2p.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_br_ext.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/recv_osdep.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/rtw_version.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_vendor_req.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_ops.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_osintf.h \
+  /home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/include/usb_hal.h \
 
-/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o: $(deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o)
+/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o: $(deps_/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o)
 
-$(deps_/home/agostino/Scaricati/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o):
+$(deps_/home/agostino/Scrivania/Dropbox/TESI/wireless/RTL8188C_8192C_USB_linux_v3.4.4_4749.20121105/driver/rtl8188C_8192C_usb_linux_v3.4.4_4749.20121105/os_dep/linux/usb_intf.o):
