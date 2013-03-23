@@ -851,7 +851,7 @@ static void _rtl92c_query_rxphystatus(struct ieee80211_hw *hw,
 			pstats->RX_SIGQ[0] = sq;
 			pstats->RX_SIGQ[1] = -1;
 		}
-	} else {
+	} else {	//OFDM
 		rtlpriv->dm.rfpath_rxenable[0] =
 		    rtlpriv->dm.rfpath_rxenable[1] = true;
 		for (i = RF90_PATH_A; i < RF90_PATH_MAX; i++) {
@@ -867,7 +867,7 @@ static void _rtl92c_query_rxphystatus(struct ieee80211_hw *hw,
 			if (packet_match_bssid)
 				pstats->rx_mimo_signalstrength[i] = (u8) rssi;
 		}
-		rx_pwr_all = ((p_drvinfo->pwdb_all >> 1) & 0x7f) - 110;
+		rx_pwr_all = (((p_drvinfo->pwdb_all) >> 1) & 0x7f) - 110;
 		pwdb_all = _rtl92c_query_rxpwrpercentage(rx_pwr_all);
 		pstats->rx_pwdb_all = pwdb_all;
 		pstats->rxpower = rx_pwr_all;
