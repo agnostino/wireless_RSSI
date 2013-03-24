@@ -215,7 +215,6 @@ uninstall:
 	@rm -rf $(KLIB)/$(KMODDIR)/net/mac80211/
 	@rm -rf $(KLIB)/$(KMODDIR)/net/rfkill/
 	@rm -rf $(KLIB)/$(KMODDIR)/net/wireless/
-	@rm -rf $(KLIB)/$(KMODDIR)/drivers/ssb/
 	@rm -rf $(KLIB)/$(KMODDIR)/drivers/net/usb/
 	@rm -rf $(KLIB)/$(KMODDIR)/drivers/net/wireless/
 	@rm -rf $(KLIB)/$(KMODDIR)/drivers/staging/
@@ -223,7 +222,6 @@ uninstall:
 	@find $(KLIB)/$(KMODDIR)/drivers/net/ -name "alx*.ko" -o -name "atl*.ko" 2>/dev/null |xargs rm -f
 	@# Lets only remove the stuff we are sure we are providing
 	@# on the misc directory.
-	@rm -f $(KLIB)/$(KMODDIR)/drivers/misc/eeprom/eeprom_93cx6.ko*
 	@rm -f $(KLIB)/$(KMODDIR)/drivers/misc/eeprom_93cx6.ko*
 	@rm -f $(KLIB)/$(KMODDIR)/drivers/net/b44.ko*
 	@/sbin/depmod -a

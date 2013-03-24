@@ -3215,11 +3215,8 @@ void ieee80211_rx(struct ieee80211_hw *hw, struct sk_buff *skb)
 	struct ieee80211_supported_band *sband;
 	struct ieee80211_rx_status *status = IEEE80211_SKB_RXCB(skb);
 	struct iphdr *network_header;			//Agostino Polizzano
-	signed char signal;						//Agostino Polizzano
-	s32 AgostinoRSSI;						//Agostino Polizzano
-	
-	signal = status->signal;				//Agostino Polizzano
-	AgostinoRSSI = status->AgostinoRSSI;	//Agostino Polizzano
+	struct ethhdr *eth;						//Agostino Polizzano
+	signed char signal = status->signal;	//Agostino Polizzano
 	
 	WARN_ON_ONCE(softirq_count() == 0);
 
@@ -3317,10 +3314,14 @@ void ieee80211_rx(struct ieee80211_hw *hw, struct sk_buff *skb)
 	
 	/* start Agostino Polizzano */
 	network_header = (struct iphdr *)skb_network_header(skb);
-	if (network_header != NULL) {
+ 	eth = (struct ethhdr*)skb_mac_header(skb);
+	if (network_header != NULL && eth != NULL) {
 		if (network_header->protocol == 1) { //ICMP
 			//if (network_header->saddr == _ip_address) {
-				printk(KERN_EMERG "RX_STATUS: packet sent from %pI4 (packet type: ICMP) to %pI4 - signal %d\n - AgostinoRSSI %d\n", &network_header->saddr, &network_header->daddr, signal, AgostinoRSSI);
+				printk(KERN_EMERG "RX_STATUS: ICMP packet:\n");
+				printk(KERN_EMERG "from %pI4 to %pI4\n", &network_header->saddr, &network_header->daddr);
+				printk(KERN_EMERG "from %pM4 to %pM4\n", &eth->h_source, &eth->h_dest);
+				printk(KERN_EMERG "		signal: %d\n", signal);
 			//}
 		}
 	}

@@ -956,6 +956,8 @@ static int ath9k_rx_skb_preprocess(struct ath_common *common,
 
 	rx_status->band = hw->conf.channel->band;
 	rx_status->freq = hw->conf.channel->center_freq;
+	//rx_status->noise = ah->noise;						//Agostino Polizzano
+	//rx_status->rssi = rx_stats->rs_rssi;				//Agostino Polizzano
 	rx_status->signal = ah->noise + rx_stats->rs_rssi;
 	rx_status->antenna = rx_stats->rs_antenna;
 	rx_status->flag |= RX_FLAG_MACTIME_END;

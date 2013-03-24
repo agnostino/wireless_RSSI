@@ -1,1 +1,1 @@
-obj-$(CONFIG_RTLWIFI)		+= rtlwifi/
+obj-$(CONFIG_ATH_CARDS)		+= ath/
